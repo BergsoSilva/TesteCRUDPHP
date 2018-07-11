@@ -14,13 +14,20 @@
 
     <title>Lista de Alunos</title>
     <!-- boptstrp core CSS-->
-    <link  href="bootstrap/css/bootstrap.min.css"  rel="stylesheet"/>
-
+    <link  href="/webApp/bootstrap/css/bootstrap.min.css"  rel="stylesheet"/>
+   
+    <style type="text/css">
+      .margin-button15 { margin-bottom: 15px; }
+    </style> 
 
 </head>
 <body>
   <div class="container">
      <div class="row">
+     <h1>Lista de Alunos </h1>
+
+     <a href="produtos/add" class="btn btn-success margin-button15">Novo Aluno</a>
+
      <table class="table table-bordered">
             
             <thead>
@@ -73,7 +80,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>   
+    <script src="/webApp/bootstrap/js/bootstrap.min.js"></script>   
     
 </body>
 </html>
